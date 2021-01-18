@@ -1,12 +1,14 @@
 import "../styles/globals.css"
 import Profil from "./root/Profil"
+import Headers from "./Shared/Headers"
+import Footer from "./Shared/Footer"
 
 export default function App() {
     return (
-      <div >
-          fhbij <br/>
-          <Profil/>
-        <h1> export</h1>
-      </div>
+      <>
+        <Headers/>
+        <Profil/>
+        {/* <Footer/> */}
+      </>
     )
 }

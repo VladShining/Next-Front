@@ -1,7 +1,23 @@
-.container {
-    background-color: yellow;
-    color: green;
-    &:hover{
-        color:red;
+.main {
+    margin-left: 35%;
+    max-width: 54em;
+    padding: 8em 4em 4em 4em;
+    width: calc(100% - 35%);
+    @media screen and (max-width: 1280px)
+    {
+        margin-left: 30%;
+        max-width: none;
+        padding: 6em 3em 3em 3em;
+        width: calc(100% - 30%);
+    }
+    @media screen and (max-width: 980px)
+    {
+        margin: 0;
+        padding: 6em 4em;
+        width: 100%;
+    }
+    @media screen and (max-width: 736px)
+    {
+        padding: 2.25em 1.5em 0.25em 1.5em;
     }
 }

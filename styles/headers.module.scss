@@ -1,0 +1,61 @@
+.header {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -moz-align-items: -moz-flex-end;
+    -webkit-align-items: -webkit-flex-end;
+    -ms-align-items: -ms-flex-end;
+    align-items: flex-end;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    background-color: #1f1815;
+    background-attachment: scroll, scroll;
+    // background-image: url(images/overlay.png), url(../../images/bg.jpg);
+    background-position: top left, top left;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, 150%;
+    color: rgb(255, 1, 1);
+    height: 100%;
+    left: 0;
+    padding: 8em 4em;
+    position: fixed;
+    text-align: right;
+    top: 0;
+    width: 35%;
+
+    @media screen and  (max-width: 1280px)
+    {
+        padding : 6em 3em 3em 3em;
+        width : 30%;
+    }
+    
+    @media screen and (max-width: 980px)
+    {
+        background-attachment: scroll;
+        background-position: top left, center center;
+        background-size: auto, cover;
+        left: auto;
+        padding: 6em 4em;
+        position: relative;
+        text-align: center;
+        top: auto;
+        width: 100%;
+        display: block;
+    }
+    @media screen and (max-width: 736px)
+    {
+        padding: 2.25em 1.5em;
+    }
+    @media screen and (max-width: 480px)
+    {
+        padding: 4.5em 1.5em;
+    }
+}
+

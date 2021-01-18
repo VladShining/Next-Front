@@ -1,14 +1,9 @@
+import headers from  "../../styles/headers.module.scss"
+
 export default function Headers(){
     return (
-        <>
-            <header id="header">
-				<div className="inner">
-					<a href="#" className="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-					<h1><strong>I am Strata</strong>, a super simple<br />
-					responsive site template freebie<br />
-					crafted by <a href="http://html5up.net">HTML5 UP</a>.</h1>
-				</div>
-			</header>
-        </>
+        <div className={headers.header}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, corporis! Labore error sequi temporibus velit possimus incidunt quidem dolore omnis ducimus! Facere minus quos nulla! Eaque distinctio id minima nobis?
+        </div>
     )
 }
