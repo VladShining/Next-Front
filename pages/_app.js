@@ -1,7 +1,11 @@
 import '../styles/globals.css'
+import styles from '../styles/main.module.scss'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
-
-export default MyApp
+export default function App() {
+    return (
+      <div className={styles.container}>
+          fhbij
+        <h1> export</h1>
+      </div>
+    )
+} 
