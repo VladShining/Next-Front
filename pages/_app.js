@@ -1,11 +1,12 @@
-import '../styles/globals.css'
-import styles from '../styles/main.module.scss'
+import "../styles/globals.css"
+import Profil from "./root/Profil"
 
 export default function App() {
     return (
-      <div className={styles.container}>
-          fhbij
+      <div >
+          fhbij <br/>
+          <Profil/>
         <h1> export</h1>
       </div>
     )
-} 
+}
